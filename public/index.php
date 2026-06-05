@@ -557,6 +557,17 @@
                         <button type="submit" class="btn btn-primary-custom w-100 py-2.5" id="btnLoginSubmit">
                             <i class="fa-solid fa-shield-halved me-2"></i> Iniciar Sesión de Demostración
                         </button>
+                        
+                        <div class="text-center mt-3 pt-2 border-top border-light-subtle">
+                            <p class="fs-7 text-muted mb-1">
+                                ¿No tienes cuenta aún?
+                                <a href="../view/auth/registrer.php" class="text-success fw-bold text-decoration-none ms-1">Regístrate aquí <i class="fa-solid fa-arrow-right fs-8 ms-1"></i></a>
+                            </p>
+                            <p class="fs-8 text-muted mb-0">
+                                o accede a la 
+                                <a href="../view/auth/login.php" class="text-success text-decoration-none">Página de acceso independiente <i class="fa-solid fa-up-right-from-square fs-9 ms-1"></i></a>
+                            </p>
+                        </div>
                     </form>
                 </div>
             </div>
